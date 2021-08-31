@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Project</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+
+
+
+
+</head>
+<body>
+
+<div class="nav template clear">
+    <div class="menu-right">
+        <label class="icon" onclick="myFunction()" >
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <div class="social">
+            <a href="#" title=""><i class="fa fa-facebook"></i></a>
+            <a href="#" title=""><i class="fa fa-twitter"></i></a>
+            <a href="#" title=""><i class="fa fa-linkedin"></i></a>
+            <a href="#" title=""><i class="fa fa-skype"></i></a>
+        </div><!-- Social Icons -->
+        <div class="logo"><a href="#"><h1>BLOG</h1></a></div><!-- Logo -->
+
+        <ul id="navbar">
+            <li ><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="contacts.html">Contact</a></li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="contentSection template clear">
+    <div class="mainContent col-9 col-s-9 clear">
+        <div class="contact">
+            <h2>Contact Us</h2>
+        </div>
+       <div class="row clear ">
+           <div class="fontawesome">
+               <div class="mobile-icon col-m-3">
+               <i class="fas fa-mobile-alt"></i>
+               <span>
+                    <p>Call: +8801782314143, +8801647781717 <br>Saturday - Thursday (9am - 6pm)</p>
+
+               </span>
+           </div>
+               <div class="mail-icon col-m-3">
+                   <i class="fas fa-envelope-open-text"></i>
+                   <span>
+                <p>Email:mehedibsmrstucse37@gmail.com</p>
+
+            </span>
+               </div>
+               <div class="location-icon col-m-3">
+                   <i class="fas fa-map-marker-alt"></i>
+                   <span>
+                <p>Location : 9/1 Bagmara, Khulna <br>Complex(5th floor)<br>Khulna-100,Bangladesh</p>
+
+            </span>
+               </div>
+           </div>
+       </div>
+
+       <div class="row ">
+           <form action="" method="get" class="form-style">
+               <div class="form-contact">
+                   <label for="email">Name: </label>
+                   <input type="text" name="name" id="name" required>
+               </div>
+               <div class="form-contact">
+                   <label for="email">Email: </label>
+                   <input type="email" name="email" id="email" required>
+               </div>
+               <div class="form-contact">
+                   <label for="subject">Subject: </label>
+                   <input type="text" name="subject" id="subject" required>
+               </div>
+               <div class="form-contact">
+                   <label for="message">Message: </label>
+                   <textarea class="textarea" name="message" id="message" cols="61" rows="10"></textarea>
+               </div>
+               <div class="form-contact">
+                   <input class="button" type="submit" value="submit">
+               </div>
+           </form>
+       </div>
+
+
+
+
+
+    </div>
+    <div class="sideBar col-3 col-s-3 clear">
+        <div class="sameSideBar">
+            <h2 >Latest articles</h2>
+            <ul class="latestPost">
+                <li><a href="#">Post title one will be go here</a></li>
+                <li><a href="#">Post title one will be go here</a></li>
+                <li><a href="#">Post title one will be go here</a></li>
+                <li><a href="#">Post title one will be go here</a></li>
+            </ul>
+        </div>
+        <div class="sameSideBar">
+            <h2>Popular articles</h2>
+            <div class="post-example">
+
+                <h4>Post title will be go here</h4>
+                <img class="sideBarPostImg" src="image/bannar.png" alt="post-image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+
+            </div>
+            <br><br><br><br>
+            <div>
+                <h4>Post title will be go here</h4>
+                <img class="sideBarPostImg" src="image/bannar.png" alt="post-image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+
+            </div>
+            <br><br><br><br>
+            <div>
+                <h4>Post title will be go here</h4>
+                <img class="sideBarPostImg" src="image/bannar.png" alt="post-image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+<div class="footerSection">
+    <div class="footer-menu">
+        <ul class="footer-nav">
+            <li ><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+        </ul>
+        <p>&copy; Copyright blog website</p>
+    </div>
+
+</div>
+
+
+<script src="https://kit.fontawesome.com/561349726c.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="js/index.js"></script>
+<script>
+    function myFunction(){
+        var x = document.getElementById("navbar");
+        if(x.style.display == "block"){
+            x.style.display = "none";
+        }
+        else{
+            x.style.display = "block";
+        }
+    }
+</script>
+</body>
+</html>

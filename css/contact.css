@@ -1,0 +1,38 @@
+
+.contact {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 2px solid;
+    color: #17A2B8;
+}
+.form-style {
+    position: relative;
+    left: 30%;
+
+}
+
+.textarea {
+    border: 1px solid bisque;
+}
+.form-contact{
+    padding: 7px;
+}
+.form-contact input {
+    width: 46%;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid bisque;
+}
+.form-contact label {
+    font-size: 17px;
+    display: block;
+    padding-bottom: 9px;
+}
+.button{
+    background: #51A5D0;
+}
+.fontawesome {
+
+    position: relative;
+    left: 10px;
+}

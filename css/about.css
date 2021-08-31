@@ -1,0 +1,39 @@
+.about{
+
+}
+
+.about-title {
+    position: relative;
+    top: -2px;
+    height: 42px;
+    width: 50%;
+    color: black;
+    border-bottom: 1px solid #000000;
+    padding-top: 13px;
+}
+.about-image {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+.aboutContent{
+
+}
+.about-details {
+    position: relative;
+    line-height: 22px;
+    text-align: justify;
+    top: 15px;
+    left: 22px;
+}
+.about-sub-details {
+    line-height: 29px;
+    font-size: 16px;
+
+}
+.about-sub-details i {
+    float: left;
+    padding: 6px;
+}
